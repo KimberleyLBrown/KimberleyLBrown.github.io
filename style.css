@@ -14,6 +14,7 @@ h1 {
 body {
     font-size: 16px;
     color: navy;
+    font-family: sans-serif;
 }
 
 table.gym {
@@ -71,4 +72,30 @@ tr.brown-filled {
 
 td.heading{
     padding-top: 10px;
+}
+
+textarea.notes{
+    color: black;
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+    resize: none;
+}
+
+div.sheet-number{
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+    background-color: transparent;
+    float:right;
+}
+
+input{
+    padding: 0px;
+    width: 4em;
+    margin: 0;
+    border: none;
+    outline: none;
+    text-align: center;
 }
