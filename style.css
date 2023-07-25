@@ -1,17 +1,101 @@
 /*p{*/
 /*	color: #1aff00;*/
 /*}*/
-a{
-	color:blue;
+a {
+    color: blue;
 }
 
-h1{
-	color:white;
-	background-color:green;
-	padding: 10px;
+h1 {
+    color: white;
+    background-color: green;
+    padding: 10px;
 }
 
 body {
-	font-size: 16px;
-	color: navy;
+    font-size: 16px;
+    color: navy;
+    font-family: sans-serif;
+}
+
+table.gym {
+    width: 50%;
+    border: thin solid black;
+    border-spacing: 0;
+    color: green;
+}
+
+table.gym tr td {
+    border: thin solid black;
+    text-align: center;
+}
+
+table.gym thead th {
+    border: thin solid black;
+    background-color: coral;
+}
+
+.red-text {
+    color: red;
+}
+
+table.gym-table {
+    width: 50%;
+    border: thin solid black;
+    border-spacing: 0;
+    background-color: white;
+    text-decoration-color: black;
+    text-decoration-thickness:10px;
+    font-family: sans-serif;
+    }
+
+td.gym-table {
+    width: fit-content;
+    border: thin solid black;
+    text-decoration-color: black;
+    text-decoration-thickness:10px;
+    text-align: center;
+}
+
+td.notes {
+   width: 50%;
+}
+
+td.set-heading {
+    background-color: red;
+    padding-top: 10px;
+}
+
+tr.brown-filled {
+    background-color: saddlebrown;
+    color: yellow;
+}
+
+td.heading{
+    padding-top: 10px;
+}
+
+textarea.notes{
+    color: black;
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+    resize: none;
+}
+
+div.sheet-number{
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+    background-color: transparent;
+    float:right;
+}
+
+input{
+    padding: 0px;
+    width: 4em;
+    margin: 0;
+    border: none;
+    outline: none;
+    text-align: center;
 }

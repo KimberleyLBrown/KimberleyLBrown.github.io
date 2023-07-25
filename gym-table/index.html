@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gym Table</title>
+</head>
+<link rel="stylesheet" href="../style.css">
+<body>
+<div class="sheet-number">Sheet 1</div>
+<table class="gym-table">
+    <tbody>
+    <tr class="brown-filled">
+        <td class="gym-table brown-filled heading">Leg Press</td>
+        <td class="gym-table set-heading">Set 1</td>
+        <td class="gym-table set-heading">Set 2</td>
+        <td class="gym-table set-heading">Set 3</td>
+        <td class="gym-table notes brown-filled heading">Notes</td>
+    </tr>
+    <tr>
+        <td class="gym-table">Weight in KG/ILBs</td>
+        <td class="gym-table"><input id="leg-press-weight-1"></td>
+        <td class="gym-table"><input id="leg-press-weight-2"></td>
+        <td class="gym-table"><input id="leg-press-weight-3"></td>
+        <td class="gym-table" rowspan="2"><textarea class="notes" id="legpress"></textarea></td>
+    </tr>
+    <tr>
+        <td class="gym-table">10-12 reps</td>
+        <td class="gym-table"><input id="leg-press-rep-1"></td>
+        <td class="gym-table"><input id="leg-press-rep-2"></td>
+        <td class="gym-table"><input id="leg-press-rep-3"></td>
+    </tr>
+    <tr class="brown-filled">
+        <td class="gym-table heading">Chest Press Machine</td>
+        <td class="gym-table set-heading">Set 1</td>
+        <td class="gym-table set-heading">Set 2</td>
+        <td class="gym-table set-heading">Set 3</td>
+        <td class="gym-table notes heading">Notes</td>
+    </tr>
+    <tr>
+        <td class="gym-table">Weight in KG/ILBs</td>
+        <td class="gym-table"><input id="chest-press-weight-1"></td>
+        <td class="gym-table"><input id="chest-press-weight-2"></td>
+        <td class="gym-table"><input id="chest-press-weight-3"></td>
+        <td class="gym-table" rowspan="2"><textarea class="notes" id="chestpress"></textarea></td>
+    </tr>
+    <tr>
+        <td class="gym-table">10-12 reps</td>
+        <td class="gym-table"><input id="chest-press-rep-1"></td>
+        <td class="gym-table"><input id="chest-press-rep-2"></td>
+        <td class="gym-table"><input id="chess-press-rep-3"></td>
+    </tr>
+    <tr class="brown-filled">
+        <td class="gym-table heading">Leg Extensions</td>
+        <td class="gym-table set-heading">Set 1</td>
+        <td class="gym-table set-heading">Set 2</td>
+        <td class="gym-table set-heading">Set 3</td>
+        <td class="gym-table notes heading">Notes</td>
+    </tr>
+    <tr>
+        <td class="gym-table">Weight in KG/ILBs</td>
+        <td class="gym-table"><input id="leg-extension-weight-1"></td>
+        <td class="gym-table"><input id="leg-extension-weight-2"></td>
+        <td class="gym-table"><input id="leg-extension-weight-3"></td>
+        <td class="gym-table" rowspan="2"><textarea class="notes" id="legextensions"></textarea></td>
+    </tr>
+    <tr>
+        <td class="gym-table">10-12 reps</td>
+        <td class="gym-table"><input id="leg-extension-rep-1"></td>
+        <td class="gym-table"><input id="leg-extension-rep-2"></td>
+        <td class="gym-table"><input id="leg-extension-rep-3"></td>
+    </tr>
+    <tr class="brown-filled">
+        <td class="gym-table heading">Lat Pulldown mid grip</td>
+        <td class="gym-table set-heading">Set 1</td>
+        <td class="gym-table set-heading">Set 2</td>
+        <td class="gym-table set-heading">Set 3</td>
+        <td class="gym-table notes heading">Notes</td>
+    </tr>
+    <tr>
+        <td class="gym-table">Weight in KG/ILBs</td>
+        <td class="gym-table"><input id="lat-pulldown-weight-1"></td>
+        <td class="gym-table"><input id="lat-pulldown-weight-2"></td>
+        <td class="gym-table"><input id="lat-pulldown-weight-3"></td>
+        <td class="gym-table" rowspan="2"><textarea class="notes" id="latpulldown"></textarea></td>
+    </tr>
+    <tr>
+        <td class="gym-table">10-12 reps</td>
+        <td class="gym-table"><input id="lat-pulldown-rep-1"></td>
+        <td class="gym-table"><input id="lat-pulldown-rep-2"></td>
+        <td class="gym-table"><input id="lat-pulldown-rep-3"></td>
+    </tr>
+    </tbody>
+</table>
+<br>
+<br>
+<table class="gym-table">
+    <tbody>
+    <tr class="brown-filled">
+        <td class="gym-table heading">Donkey Kicks</td>
+        <td class="gym-table set-heading">Set 1</td>
+        <td class="gym-table set-heading">Set 2</td>
+        <td class="gym-table set-heading">Set 3</td>
+        <td class="gym-table notes notes heading">Notes</td>
+    </tr>
+    <tr>
+        <td class="gym-table">Weight in KG/ILBs</td>
+        <td class="gym-table"><input id="donkey-kick-weight-1"></td>
+        <td class="gym-table"><input id="donkey-kick-weight-2"></td>
+        <td class="gym-table"><input id="donkey-kick-weight-3"></td>
+        <td class="gym-table" rowspan="2"><textarea class="notes" id="donkeykicks"></textarea></td>
+    </tr>
+    <tr>
+        <td class="gym-table">10-12 reps</td>
+        <td class="gym-table"><input id="donkey-kick-rep-1"></td>
+        <td class="gym-table"><input id="donkey-kick-rep-2"></td>
+        <td class="gym-table"><input id="donkey-kick-rep-3"></td>
+    </tr>
+    <tr class="brown-filled">
+        <td class="gym-table heading">Shoulder Press d'bell</td>
+        <td class="gym-table set-heading">Set 1</td>
+        <td class="gym-table set-heading">Set 2</td>
+        <td class="gym-table set-heading">Set 3</td>
+        <td class="gym-table notes heading">Notes</td>
+    </tr>
+    <tr>
+        <td class="gym-table">Weight in KG/ILBs</td>
+        <td class="gym-table"><input id="shoulder-press-weight-1"></td>
+        <td class="gym-table"><input id="shoulder-press-weight-2"></td>
+        <td class="gym-table"><input id="shoulder-press-weight-3"></td>
+        <td class="gym-table" rowspan="2"><textarea class="notes" id="shoulderpress"></textarea></td>
+    </tr>
+    <tr>
+        <td class="gym-table">10-12 reps</td>
+        <td class="gym-table"><input id="shoulder-press-rep-1"></td>
+        <td class="gym-table"><input id="shoulder-press-rep-2"></td>
+        <td class="gym-table"><input id="shoulder-press-rep-3"></td>
+    </tr>
+    <tr class="brown-filled">
+        <td class="gym-table heading">Hamstring Curls</td>
+        <td class="gym-table set-heading">Set 1</td>
+        <td class="gym-table set-heading">Set 2</td>
+        <td class="gym-table set-heading">Set 3</td>
+        <td class="gym-table notes heading">Notes</td>
+    </tr>
+    <tr>
+        <td class="gym-table">Weight in KG/ILBs</td>
+        <td class="gym-table"><input id="hamstring-curl-weight-1"></td>
+        <td class="gym-table"><input id="hamstring-curl-weight-2"></td>
+        <td class="gym-table"><input id="hamstring-curl-weight-3"></td>
+        <td class="gym-table" rowspan="2"><textarea class="notes" id="hamstringcurls"></textarea></td>
+    </tr>
+    <tr>
+        <td class="gym-table">10-12 reps</td>
+        <td class="gym-table"><input id="hamstring-curl-rep-1"></td>
+        <td class="gym-table"><input id="hamstring-curl-rep-2"></td>
+        <td class="gym-table"><input id="hamstring-curl-rep-3"></td>
+    </tr>
+    <tr class="brown-filled">
+        <td class="gym-table heading">Seated Row Machine</td>
+        <td class="gym-table set-heading">Set 1</td>
+        <td class="gym-table set-heading">Set 2</td>
+        <td class="gym-table set-heading">Set 3</td>
+        <td class="gym-table heading">Notes</td>
+    </tr>
+    <tr>
+        <td class="gym-table">Weight in KG/ILBs</td>
+        <td class="gym-table"><input id="seated-row-weight-1"></td>
+        <td class="gym-table"><input id="seated-row-weight-2"></td>
+        <td class="gym-table"><input id="seated-row-weight-3"></td>
+        <td class="gym-table" rowspan="2"><textarea class="notes" id="seatedrow"></textarea></td></tr>
+    <tr>
+        <td class="gym-table">10-12 reps</td>
+        <td class="gym-table"><input id="seated-row-rep-1"></td>
+        <td class="gym-table"><input id="seated-row-rep-2"></td>
+        <td class="gym-table"><input id="seated-row-rep-3"></td>
+    </tr>
+    </tbody>
+</table>
+<br>
+<br>
+<table class="gym-table">
+    <tbody>
+    <tr class="brown-filled">
+        <td class="gym-table heading">Squats</td>
+        <td class="gym-table set-heading">Set 1</td>
+        <td class="gym-table set-heading">Set 2</td>
+        <td class="gym-table set-heading">Set 3</td>
+        <td class="gym-table notes heading">Notes</td>
+    </tr>
+    <tr>
+        <td class="gym-table">Weight in KG/ILBs</td>
+        <td class="gym-table"><input id="squats-weight-1"></td>
+        <td class="gym-table"><input id="squats-weight-2"></td>
+        <td class="gym-table"><input id="squats-weight-3"></td>
+        <td class="gym-table" rowspan="2"><textarea class="notes" id="squats"></textarea></td>
+    </tr>
+    <tr>
+        <td class="gym-table">10-12 reps</td>
+        <td class="gym-table"><input id="squats-rep-1"></td>
+        <td class="gym-table"><input id="squats-rep-2"></td>
+        <td class="gym-table"><input id="squats-rep-3"></td>
+    </tr>
+    <tr class="brown-filled">
+        <td class="gym-table heading">Hip Thrusts</td>
+        <td class="gym-table set-heading">Set 1</td>
+        <td class="gym-table set-heading">Set 2</td>
+        <td class="gym-table set-heading">Set 3</td>
+        <td class="gym-table notes heading">Notes</td>
+    </tr>
+    <tr>
+        <td class="gym-table">Weight in KG/ILBs</td>
+        <td class="gym-table"><input id="hip-thrust-weight-1"></td>
+        <td class="gym-table"><input id="hip-thrust-weight-2"></td>
+        <td class="gym-table"><input id="hip-thrust-weight-3"></td>
+        <td class="gym-table" rowspan="2"><textarea class="notes" id="hipthrusts"></textarea></td>
+    </tr>
+    <tr>
+        <td class="gym-table">10-12 reps</td>
+        <td class="gym-table"><input id="hip-thrust-rep-1"></td>
+        <td class="gym-table"><input id="hip-thrust-rep-2"></td>
+        <td class="gym-table"><input id="hip-thrust-rep-3"></td>
+    </tr>
+    <tr class="brown-filled">
+        <td class="gym-table heading">Deadlift</td>
+        <td class="gym-table set-heading">Set 1</td>
+        <td class="gym-table set-heading">Set 2</td>
+        <td class="gym-table set-heading">Set 3</td>
+        <td class="gym-table notes heading">Notes</td>
+    </tr>
+    <tr>
+        <td class="gym-table">Weight in KG/ILBs</td>
+        <td class="gym-table"><input id="deadlift-weight-1"></td>
+        <td class="gym-table"><input id="deadlift-weight-2"></td>
+        <td class="gym-table"><input id="deadlift-weight-3"></td>
+        <td class="gym-table" rowspan="2"><textarea class="notes" id="deadlift"></textarea></td>
+    </tr>
+    <tr>
+        <td class="gym-table">10-12 reps</td>
+        <td class="gym-table"><input id="deadlift-rep-1"></td>
+        <td class="gym-table"><input id="deadlift-rep-2"></td>
+        <td class="gym-table"><input id="deadlift-rep-3"></td>
+    </tr>
+    <tr class="brown-filled">
+        <td class="gym-table heading">Lunges</td>
+        <td class="gym-table set-heading">Set 1</td>
+        <td class="gym-table set-heading">Set 2</td>
+        <td class="gym-table set-heading">Set 3</td>
+        <td class="gym-table notes heading">Notes</td>
+    </tr>
+    <tr>
+        <td class="gym-table">Weight in KG/ILBs</td>
+        <td class="gym-table"><input id="lunges-weight-1"></td>
+        <td class="gym-table"><input id="lunges-weight-2"></td>
+        <td class="gym-table"><input id="lunges-weight-3"></td>
+        <td class="gym-table" rowspan="2"><textarea class="notes" id="lunges"></textarea>
+        </td>
+    </tr>
+    <tr>
+        <td class="gym-table">10-12 reps</td>
+        <td class="gym-table"><input id="lunges-rep-1"></td>
+        <td class="gym-table"><input id="lunges-rep-2"></td>
+        <td class="gym-table"><input id="lunges-rep-3"></td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+<a href="../index.html">Back</a>
+</html>
